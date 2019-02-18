@@ -1,0 +1,60 @@
+1
+00:00:00,546 --> 00:00:00,553
+1. openBrowser("")
+
+2
+00:01:04,441 --> 00:01:04,443
+5. maximizeWindow()
+
+3
+00:01:05,702 --> 00:01:05,713
+9. navigateToUrl("https://staging.adxasia.co.id/")
+
+4
+00:01:16,716 --> 00:01:16,721
+13. click(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/li_Sign In"))
+
+5
+00:01:19,836 --> 00:01:19,837
+17. setText(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/input_email"), "mulkimul16@gmail.com")
+
+6
+00:01:24,399 --> 00:01:24,400
+21. setEncryptedText(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/input_Email_error"), "mn5hRviTc1hO3f41WUkJsA==")
+
+7
+00:01:28,033 --> 00:01:28,033
+25. click(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/button_Sign in"))
+
+8
+00:01:30,664 --> 00:01:30,666
+29. click(findTestObject("Email_Registration/1.2/Page_Home - ADX Asia/button_Sign in with Google"))
+
+9
+00:01:33,575 --> 00:01:33,576
+33. delay(2)
+
+10
+00:01:35,800 --> 00:01:35,801
+37. switchToWindowTitle("Masuk - Akun Google", STOP_ON_FAILURE)
+
+11
+00:01:40,964 --> 00:01:40,965
+41. setText(findTestObject("Email_Registration/1.2/Page_Masuk - Akun Google/input_gmail_account"), "mulkimul16@gmail.com")
+
+12
+00:01:45,365 --> 00:01:45,366
+45. click(findTestObject("Email_Registration/1.2/Page_Masuk - Akun Google/span_Berikutnya"))
+
+13
+00:01:47,826 --> 00:01:47,827
+49. setEncryptedText(findTestObject("Email_Registration/1.2/Page_Masuk - Akun Google/input_password"), "14n9+UJqs0woiBvwapmKLg==")
+
+14
+00:01:51,092 --> 00:01:51,094
+53. click(findTestObject("Email_Registration/1.2/Page_Masuk - Akun Google/span_Berikutnya"))
+
+15
+00:01:55,144 --> 00:01:55,145
+57. waitForPageLoad(3)
+

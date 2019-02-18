@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuites_4,Chrome 71.0.3578.98,,2019-02-01 18:58:44,2019-02-01 18:59:45,1m - 0.909s,PASSED
+,,,,,,
+Test Cases/Registration_Page/Email_Registration/1.4/verify_user_signin_using_gmail_account,Chrome 71.0.3578.98,,2019-02-01 18:58:44,2019-02-01 18:59:45,1m - 0.620s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-01 18:58:45,2019-02-01 18:58:56,11.030s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-01 18:58:56,2019-02-01 18:58:58,2.605s,PASSED
+"navigateToUrl(""https://staging.adxasia.co.id/"")",Chrome 71.0.3578.98,,2019-02-01 18:58:58,2019-02-01 18:59:06,7.874s,PASSED
+waitForPageLoad(2),Chrome 71.0.3578.98,,2019-02-01 18:59:06,2019-02-01 18:59:08,1.342s,PASSED
+"click(findTestObject(""1.1/Page_Home - ADX Asia/li_Sign In""))",Chrome 71.0.3578.98,,2019-02-01 18:59:08,2019-02-01 18:59:10,2.816s,PASSED
+"setText(findTestObject(""1.1/Page_Home - ADX Asia/input_email""), ""!!test@test.com"")",Chrome 71.0.3578.98,,2019-02-01 18:59:10,2019-02-01 18:59:16,5.333s,PASSED
+"clearText(findTestObject(""1.1/Page_Home - ADX Asia/input_email""))",Chrome 71.0.3578.98,,2019-02-01 18:59:16,2019-02-01 18:59:18,2.093s,PASSED
+"setText(findTestObject(""1.1/Page_Home - ADX Asia/input_email""), ""123@@test.com"")",Chrome 71.0.3578.98,,2019-02-01 18:59:18,2019-02-01 18:59:22,4.214s,PASSED
+"clearText(findTestObject(""1.1/Page_Home - ADX Asia/input_email""))",Chrome 71.0.3578.98,,2019-02-01 18:59:22,2019-02-01 18:59:24,2.115s,PASSED
+"setText(findTestObject(""1.1/Page_Home - ADX Asia/input_email""), ""abc.@abc.abc"")",Chrome 71.0.3578.98,,2019-02-01 18:59:24,2019-02-01 18:59:28,4.212s,PASSED
+"clearText(findTestObject(""1.1/Page_Home - ADX Asia/input_email""))",Chrome 71.0.3578.98,,2019-02-01 18:59:28,2019-02-01 18:59:30,2.062s,PASSED
+"setText(findTestObject(""1.1/Page_Home - ADX Asia/input_email""), ""mulki.sulaiman90@gmail.com"")",Chrome 71.0.3578.98,,2019-02-01 18:59:30,2019-02-01 18:59:35,4.223s,PASSED
+"setEncryptedText(findTestObject(""1.1/Page_Home - ADX Asia/input_Email_error""), ""7rMQXxMs5dtH0amwvFpWZg=="")",Chrome 71.0.3578.98,,2019-02-01 18:59:35,2019-02-01 18:59:38,3.512s,PASSED
+"click(findTestObject(""1.1/Page_Home - ADX Asia/button_Sign in""))",Chrome 71.0.3578.98,,2019-02-01 18:59:38,2019-02-01 18:59:40,2.323s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-02-01 18:59:40,2019-02-01 18:59:42,1.958s,PASSED

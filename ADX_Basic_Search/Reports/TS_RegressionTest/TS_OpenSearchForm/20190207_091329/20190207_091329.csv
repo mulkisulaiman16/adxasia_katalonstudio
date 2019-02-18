@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OpenSearchForm,,,2019-02-07 09:13:40,2019-02-07 09:13:59,19.504s,FAILED
+,,,,,,
+Test Cases/BasicSearch/1.1/Open_search_form,,,2019-02-07 09:13:40,2019-02-07 09:13:59,18.853s,FAILED
+"openBrowser("""")",,,2019-02-07 09:13:41,2019-02-07 09:13:59,18.427s,FAILED

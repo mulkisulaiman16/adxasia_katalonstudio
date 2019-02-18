@@ -1,0 +1,60 @@
+1
+00:00:00,474 --> 00:00:00,491
+1. openBrowser("")
+
+2
+00:00:07,899 --> 00:00:07,900
+5. maximizeWindow()
+
+3
+00:00:10,060 --> 00:00:10,061
+9. navigateToUrl("https://staging.adxasia.co.id/")
+
+4
+00:00:14,956 --> 00:00:14,957
+13. waitForPageLoad(2)
+
+5
+00:00:16,047 --> 00:00:16,051
+17. click(findTestObject("1.1/Page_Home - ADX Asia/li_Sign In"))
+
+6
+00:00:18,284 --> 00:00:18,298
+21. click(findTestObject("1.3/Page_Signup/span_Sign up"))
+
+7
+00:00:20,484 --> 00:00:20,490
+25. click(findTestObject("1.3/Page_Signup/button_Sign up with Email"))
+
+8
+00:00:23,340 --> 00:00:23,342
+29. setText(findTestObject("1.3/Page_Signup/input_email"), "test21@test.com")
+
+9
+00:00:27,838 --> 00:00:27,839
+33. setText(findTestObject("1.3/Page_Signup/input_fullname"), "Test Mulki")
+
+10
+00:00:32,062 --> 00:00:32,065
+37. setText(findTestObject("1.3/Page_Signup/input_telepon"), "08123456789")
+
+11
+00:00:36,405 --> 00:00:36,406
+41. setText(findTestObject("1.3/Page_Signup/input_company"), "Test")
+
+12
+00:00:40,604 --> 00:00:40,605
+45. setEncryptedText(findTestObject("1.3/Page_Signup/input_password"), "o+tS4OuGt32nW2fw4d97xA==")
+
+13
+00:00:43,914 --> 00:00:43,915
+49. check(findTestObject("1.3/Page_Signup/label_I Agree"))
+
+14
+00:00:47,104 --> 00:00:47,105
+53. click(findTestObject("1.3/Page_Signup/button_Register"))
+
+15
+00:00:49,292 --> 00:00:49,294
+57. closeBrowser()
+

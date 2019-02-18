@@ -1,0 +1,36 @@
+1
+00:00:00,614 --> 00:00:00,667
+1. openBrowser("")
+
+2
+00:01:23,171 --> 00:01:23,871
+5. maximizeWindow()
+
+3
+00:01:30,267 --> 00:01:30,320
+9. navigateToUrl("https://staging.adxasia.co.id/")
+
+4
+00:03:34,857 --> 00:03:35,362
+13. click(findTestObject("1.1/Page_Home - ADX Asia/li_Sign In"))
+
+5
+00:04:00,909 --> 00:04:01,001
+17. setText(findTestObject("1.1/Page_Home - ADX Asia/input_email"), "mulkimul@gmail.com")
+
+6
+00:04:16,199 --> 00:04:16,202
+21. setEncryptedText(findTestObject("1.1/Page_Home - ADX Asia/input_Email_error"), "mn5hRviTc1hO3f41WUkJsA==")
+
+7
+00:04:22,626 --> 00:04:22,627
+25. click(findTestObject("1.1/Page_Home - ADX Asia/button_Sign in"))
+
+8
+00:04:28,493 --> 00:04:28,655
+29. waitForPageLoad(3)
+
+9
+00:04:41,815 --> 00:04:41,824
+33. closeBrowser()
+

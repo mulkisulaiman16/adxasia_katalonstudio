@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuites_4,,,2019-02-01 18:37:20,2019-02-01 18:38:55,1m - 35.216s,FAILED
+,,,,,,
+Test Cases/Registration_Page/Email_Registration/1.4/verify_user_signin_using_gmail_account,,,2019-02-01 18:37:21,2019-02-01 18:38:55,1m - 34.500s,FAILED
+"openBrowser("""")",,,2019-02-01 18:37:25,2019-02-01 18:38:53,1m - 27.916s,FAILED

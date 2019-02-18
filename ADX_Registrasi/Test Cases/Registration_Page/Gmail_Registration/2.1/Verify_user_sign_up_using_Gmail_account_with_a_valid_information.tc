@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_user_sign_up_using_Gmail_account_with_a_valid_information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01a7dc96-6ed4-481b-85c0-c9c81ee3de09</testCaseGuid>
+</TestCaseEntity>

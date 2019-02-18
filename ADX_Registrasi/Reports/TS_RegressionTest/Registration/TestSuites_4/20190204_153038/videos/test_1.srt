@@ -1,0 +1,60 @@
+1
+00:00:00,513 --> 00:00:00,520
+1. openBrowser("")
+
+2
+00:00:22,166 --> 00:00:22,167
+5. maximizeWindow()
+
+3
+00:00:23,367 --> 00:00:23,378
+9. navigateToUrl("https://staging.adxasia.co.id/")
+
+4
+00:00:33,592 --> 00:00:33,593
+13. waitForPageLoad(2)
+
+5
+00:00:34,850 --> 00:00:34,851
+17. click(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/li_Sign In"))
+
+6
+00:00:37,551 --> 00:00:37,552
+21. setText(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/input_email"), "!!test@test.com")
+
+7
+00:00:41,989 --> 00:00:41,990
+25. clearText(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/input_email"))
+
+8
+00:00:44,119 --> 00:00:44,120
+29. setText(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/input_email"), "123@@test.com")
+
+9
+00:00:48,206 --> 00:00:48,207
+33. clearText(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/input_email"))
+
+10
+00:00:50,267 --> 00:00:50,267
+37. setText(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/input_email"), "abc.@abc.abc")
+
+11
+00:00:54,346 --> 00:00:54,347
+41. clearText(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/input_email"))
+
+12
+00:00:56,386 --> 00:00:56,388
+45. setText(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/input_email"), "mulki.sulaiman90@gmail.com")
+
+13
+00:01:00,480 --> 00:01:00,481
+49. setEncryptedText(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/input_Email_error"), "7rMQXxMs5dtH0amwvFpWZg==")
+
+14
+00:01:03,805 --> 00:01:03,805
+53. click(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/button_Sign in"))
+
+15
+00:01:06,339 --> 00:01:06,340
+57. closeBrowser()
+

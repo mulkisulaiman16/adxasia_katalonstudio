@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_error_state_when_user_signup_using_email_account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db32e07f-2276-4772-ace4-58121cad1f05</testCaseGuid>
+</TestCaseEntity>

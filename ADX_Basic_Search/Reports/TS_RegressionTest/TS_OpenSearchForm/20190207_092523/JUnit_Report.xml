@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OpenSearchForm" time="65" tests="1" failures="0" errors="0">
+   <testsuite name="TS_OpenSearchForm" tests="1" failures="0" errors="0" time="65" timestamp="2019-02-07 09:25:35" hostname="Mulki Sulaiman - FIB-PC001" id="Test Suites/TS_RegressionTest/TS_OpenSearchForm">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mulki Sulaiman\\Documents\\ADX Asia\\ADX_Basic_Search\\Reports\\TS_RegressionTest\\TS_OpenSearchForm\\20190207_092523"/>
+         <property name="logFiles" value="C:\\Users\\Mulki Sulaiman\\Documents\\ADX Asia\\ADX_Basic_Search\\Reports\\TS_RegressionTest\\TS_OpenSearchForm\\20190207_092523\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mulki Sulaiman - FIB-PC001"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="172.16.27.57"/>
+         <property name="sessionId" value="4d48455e-e753-45bb-804d-34a225809e5b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BasicSearch/1.1/Open_search_form" classname="Test Cases/BasicSearch/1.1/Open_search_form" status="PASSED">
+         <system-out><![CDATA[2019-02-07 09:25:35 - [TEST_CASE][PASSED] - Test Cases/BasicSearch/1.1/Open_search_form: Test Cases/BasicSearch/1.1/Open_search_form
+
+2019-02-07 09:25:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-07 09:25:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-07 09:25:36 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2019-02-07 09:26:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-07 09:26:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-07 09:26:19 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-07 09:26:19 - [TEST_STEP][PASSED] - navigateToUrl("https://staging.adxasia.co.id/"): Navigate to 'https://staging.adxasia.co.id/' successfully
+
+2019-02-07 09:26:27 - [MESSAGE][PASSED] - Navigate to 'https://staging.adxasia.co.id/' successfully
+
+2019-02-07 09:26:27 - [TEST_STEP][PASSED] - click(findTestObject("1.1/Page_Home - ADX Asia/input_Search_bar")): Object: 'Object Repository/1.1/Page_Home - ADX Asia/input_Search_bar' is clicked on
+
+2019-02-07 09:26:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1/Page_Home - ADX Asia/input_Search_bar' is clicked on
+
+2019-02-07 09:26:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-07 09:26:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-07 09:26:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-07 09:26:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-07 09:25:35 - [TEST_SUITE][PASSED] - TS_OpenSearchForm: Test Cases/BasicSearch/1.1/Open_search_form]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

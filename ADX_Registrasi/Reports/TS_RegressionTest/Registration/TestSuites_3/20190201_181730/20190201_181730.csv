@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuites_3,Chrome 71.0.3578.98,,2019-02-01 18:21:08,2019-02-01 18:22:13,1m - 4.447s,PASSED
+,,,,,,
+Test Cases/Registration_Page/Email_Registration/1.3/verify_user_signup_using_email_account,Chrome 71.0.3578.98,,2019-02-01 18:21:08,2019-02-01 18:22:13,1m - 4.205s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-01 18:21:09,2019-02-01 18:21:18,9.322s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-01 18:21:18,2019-02-01 18:21:20,2.136s,PASSED
+"navigateToUrl(""https://staging.adxasia.co.id/"")",Chrome 71.0.3578.98,,2019-02-01 18:21:20,2019-02-01 18:21:37,16.604s,PASSED
+waitForPageLoad(2),Chrome 71.0.3578.98,,2019-02-01 18:21:37,2019-02-01 18:21:39,2.040s,PASSED
+"click(findTestObject(""1.1/Page_Home - ADX Asia/li_Sign In""))",Chrome 71.0.3578.98,,2019-02-01 18:21:39,2019-02-01 18:21:41,2.164s,PASSED
+"click(findTestObject(""1.3/Page_Signup/span_Sign up""))",Chrome 71.0.3578.98,,2019-02-01 18:21:41,2019-02-01 18:21:43,2.141s,PASSED
+"click(findTestObject(""1.3/Page_Signup/button_Sign up with Email""))",Chrome 71.0.3578.98,,2019-02-01 18:21:43,2019-02-01 18:21:45,2.178s,PASSED
+"setText(findTestObject(""1.3/Page_Signup/input_email""), ""test45@test.com"")",Chrome 71.0.3578.98,,2019-02-01 18:21:45,2019-02-01 18:21:50,4.402s,PASSED
+"setText(findTestObject(""1.3/Page_Signup/input_fullname""), ""Test Mulki"")",Chrome 71.0.3578.98,,2019-02-01 18:21:50,2019-02-01 18:21:54,4.200s,PASSED
+"setText(findTestObject(""1.3/Page_Signup/input_telepon""), ""08123456789"")",Chrome 71.0.3578.98,,2019-02-01 18:21:54,2019-02-01 18:21:58,4.244s,PASSED
+"setText(findTestObject(""1.3/Page_Signup/input_company""), ""Test"")",Chrome 71.0.3578.98,,2019-02-01 18:21:58,2019-02-01 18:22:02,4.165s,PASSED
+"setEncryptedText(findTestObject(""1.3/Page_Signup/input_password""), ""o+tS4OuGt32nW2fw4d97xA=="")",Chrome 71.0.3578.98,,2019-02-01 18:22:02,2019-02-01 18:22:06,3.291s,PASSED
+"check(findTestObject(""1.3/Page_Signup/label_I Agree""))",Chrome 71.0.3578.98,,2019-02-01 18:22:06,2019-02-01 18:22:09,3.156s,PASSED
+"click(findTestObject(""1.3/Page_Signup/button_Register""))",Chrome 71.0.3578.98,,2019-02-01 18:22:09,2019-02-01 18:22:11,2.126s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-02-01 18:22:11,2019-02-01 18:22:13,1.677s,PASSED

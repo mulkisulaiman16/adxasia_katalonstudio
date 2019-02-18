@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_SearchResultPage,Chrome 71.0.3578.98,,2019-02-05 01:57:55,2019-02-05 01:58:22,26.898s,PASSED
+,,,,,,
+Test Cases/BasicSearch/2.1/Search_result_page,Chrome 71.0.3578.98,,2019-02-05 01:57:55,2019-02-05 01:58:22,26.428s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-05 01:57:56,2019-02-05 01:58:02,6.554s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-05 01:58:02,2019-02-05 01:58:05,2.132s,PASSED
+"navigateToUrl(""https://staging.adxasia.co.id/"")",Chrome 71.0.3578.98,,2019-02-05 01:58:05,2019-02-05 01:58:09,4.696s,PASSED
+"click(findTestObject(""1.1/Page_Home - ADX Asia/input_Search_bar""))",Chrome 71.0.3578.98,,2019-02-05 01:58:09,2019-02-05 01:58:11,2.208s,PASSED
+"setText(findTestObject(""1.1/Page_Home - ADX Asia/input_Search_bar""), ""Bebek"")",Chrome 71.0.3578.98,,2019-02-05 01:58:11,2019-02-05 01:58:16,4.319s,PASSED
+"sendKeys(findTestObject(""1.1/Page_Home - ADX Asia/input_Search_bar""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-02-05 01:58:16,2019-02-05 01:58:18,2.143s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-05 01:58:18,2019-02-05 01:58:20,2.032s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-02-05 01:58:20,2019-02-05 01:58:22,1.667s,PASSED

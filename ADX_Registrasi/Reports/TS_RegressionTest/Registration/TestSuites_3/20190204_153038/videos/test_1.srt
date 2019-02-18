@@ -1,0 +1,60 @@
+1
+00:00:00,424 --> 00:00:00,429
+1. openBrowser("")
+
+2
+00:00:21,136 --> 00:00:21,137
+5. maximizeWindow()
+
+3
+00:00:22,408 --> 00:00:22,410
+9. navigateToUrl("https://staging.adxasia.co.id/")
+
+4
+00:01:05,793 --> 00:01:05,795
+13. waitForPageLoad(2)
+
+5
+00:01:07,529 --> 00:01:07,530
+17. click(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/li_Sign In"))
+
+6
+00:01:10,260 --> 00:01:10,261
+21. click(findTestObject("Email_Registration/1.3/Page_Signup/span_Sign up"))
+
+7
+00:01:12,705 --> 00:01:12,706
+25. click(findTestObject("Email_Registration/1.3/Page_Signup/button_Sign up with Email"))
+
+8
+00:01:15,486 --> 00:01:15,487
+29. setText(findTestObject("Email_Registration/1.3/Page_Signup/input_email"), "test21@test.com")
+
+9
+00:01:20,364 --> 00:01:20,365
+33. setText(findTestObject("Email_Registration/1.3/Page_Signup/input_fullname"), "Test Mulki")
+
+10
+00:01:24,640 --> 00:01:24,641
+37. setText(findTestObject("Email_Registration/1.3/Page_Signup/input_telepon"), "08123456789")
+
+11
+00:01:28,782 --> 00:01:28,785
+41. setText(findTestObject("Email_Registration/1.3/Page_Signup/input_company"), "Test")
+
+12
+00:01:32,981 --> 00:01:32,982
+45. setEncryptedText(findTestObject("Email_Registration/1.3/Page_Signup/input_password"), "o+tS4OuGt32nW2fw4d97xA==")
+
+13
+00:01:37,220 --> 00:01:37,221
+49. check(findTestObject("Email_Registration/1.3/Page_Signup/label_I Agree"))
+
+14
+00:01:40,588 --> 00:01:40,588
+53. click(findTestObject("Email_Registration/1.3/Page_Signup/button_Register"))
+
+15
+00:01:42,898 --> 00:01:42,901
+57. closeBrowser()
+

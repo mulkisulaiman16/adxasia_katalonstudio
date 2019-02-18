@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_QuickFilterButton,Chrome 71.0.3578.98,,2019-02-05 02:13:41,2019-02-05 02:14:33,51.297s,PASSED
+,,,,,,
+Test Cases/BasicSearch/2.2/Quick_filter_button,Chrome 71.0.3578.98,,2019-02-05 02:13:42,2019-02-05 02:14:33,50.492s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-05 02:13:44,2019-02-05 02:13:57,13.795s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-05 02:13:57,2019-02-05 02:14:00,2.220s,PASSED
+"navigateToUrl(""https://staging.adxasia.co.id/"")",Chrome 71.0.3578.98,,2019-02-05 02:14:00,2019-02-05 02:14:19,19.301s,PASSED
+"click(findTestObject(""2.2/Page_Home - ADX Asia/input_Home_search__input__sear""))",Chrome 71.0.3578.98,,2019-02-05 02:14:19,2019-02-05 02:14:21,2.318s,PASSED
+"setText(findTestObject(""2.2/Page_Home - ADX Asia/input_Home_search__input__sear""), ""Bebek"")",Chrome 71.0.3578.98,,2019-02-05 02:14:21,2019-02-05 02:14:26,4.300s,PASSED
+"sendKeys(findTestObject(""2.2/Page_Home - ADX Asia/input_Home_search__input__sear""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-02-05 02:14:26,2019-02-05 02:14:28,2.131s,PASSED
+waitForJQueryLoad(3),Chrome 71.0.3578.98,,2019-02-05 02:14:28,2019-02-05 02:14:29,1.045s,PASSED
+"click(findTestObject(""2.2/Page_categories/span_Lifestyle""))",Chrome 71.0.3578.98,,2019-02-05 02:14:29,2019-02-05 02:14:29,0.005s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-02-05 02:14:29,2019-02-05 02:14:29,0.002s,NOT_RUN
+"click(findTestObject(""2.2/Page_categories/span_SPBU""))",Chrome 71.0.3578.98,,2019-02-05 02:14:29,2019-02-05 02:14:31,2.254s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-05 02:14:31,2019-02-05 02:14:31,0.002s,NOT_RUN
+"click(findTestObject(""2.2/Page_categories/span_Malls""))",Chrome 71.0.3578.98,,2019-02-05 02:14:31,2019-02-05 02:14:31,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-02-05 02:14:31,2019-02-05 02:14:31,0.001s,NOT_RUN
+"click(findTestObject(""2.2/Page_categories/span_Airport""))",Chrome 71.0.3578.98,,2019-02-05 02:14:31,2019-02-05 02:14:31,0.001s,NOT_RUN
+closeBrowser(),Chrome 71.0.3578.98,,2019-02-05 02:14:31,2019-02-05 02:14:33,1.658s,PASSED

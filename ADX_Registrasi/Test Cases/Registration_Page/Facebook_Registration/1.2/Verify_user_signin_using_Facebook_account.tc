@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_user_signin_using_Facebook_account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5f4c571-de14-4372-a0f0-2c71d37d4468</testCaseGuid>
+</TestCaseEntity>

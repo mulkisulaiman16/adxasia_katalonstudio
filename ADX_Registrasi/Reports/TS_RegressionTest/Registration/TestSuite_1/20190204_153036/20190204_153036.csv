@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite_1,Firefox 64.0,,2019-02-04 15:30:47,2019-02-04 15:32:10,1m - 22.639s,PASSED
+,,,,,,
+Test Cases/Registration_Page/Email_Registration/1.1/verify_user_signin_gmail_account,Firefox 64.0,,2019-02-04 15:30:47,2019-02-04 15:32:10,1m - 22.167s,PASSED
+"openBrowser("""")",Firefox 64.0,,2019-02-04 15:30:48,2019-02-04 15:31:37,48.704s,PASSED
+maximizeWindow(),Firefox 64.0,,2019-02-04 15:31:37,2019-02-04 15:31:39,1.720s,PASSED
+"navigateToUrl(""https://staging.adxasia.co.id/"")",Firefox 64.0,,2019-02-04 15:31:39,2019-02-04 15:31:46,6.747s,PASSED
+"click(findTestObject(""Email_Registration/1.1/Page_Home - ADX Asia/li_Sign In""))",Firefox 64.0,,2019-02-04 15:31:46,2019-02-04 15:31:49,3.463s,PASSED
+"setText(findTestObject(""Email_Registration/1.1/Page_Home - ADX Asia/input_email""), ""mulkimul@gmail.com"")",Firefox 64.0,,2019-02-04 15:31:49,2019-02-04 15:31:54,4.496s,PASSED
+"setEncryptedText(findTestObject(""Email_Registration/1.1/Page_Home - ADX Asia/input_Email_error""), ""mn5hRviTc1hO3f41WUkJsA=="")",Firefox 64.0,,2019-02-04 15:31:54,2019-02-04 15:31:57,3.521s,PASSED
+"click(findTestObject(""Email_Registration/1.1/Page_Home - ADX Asia/button_Sign in""))",Firefox 64.0,,2019-02-04 15:31:57,2019-02-04 15:32:00,2.676s,PASSED
+waitForPageLoad(3),Firefox 64.0,,2019-02-04 15:32:00,2019-02-04 15:32:03,2.758s,PASSED
+closeBrowser(),Firefox 64.0,,2019-02-04 15:32:03,2019-02-04 15:32:07,4.783s,PASSED

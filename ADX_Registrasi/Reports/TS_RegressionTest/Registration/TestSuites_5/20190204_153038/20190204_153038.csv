@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuites_5,Firefox 64.0,,2019-02-04 15:42:36,2019-02-04 15:45:52,3m - 15.959s,PASSED
+,,,,,,
+Test Cases/Registration_Page/Email_Registration/1.5/verify_error_state_when_user_signup_using_email_account,Firefox 64.0,,2019-02-04 15:42:37,2019-02-04 15:45:52,3m - 15.104s,PASSED
+"openBrowser("""")",Firefox 64.0,,2019-02-04 15:42:37,2019-02-04 15:44:02,1m - 24.467s,PASSED
+maximizeWindow(),Firefox 64.0,,2019-02-04 15:44:02,2019-02-04 15:44:05,2.729s,PASSED
+"navigateToUrl(""https://staging.adxasia.co.id/"")",Firefox 64.0,,2019-02-04 15:44:05,2019-02-04 15:44:38,33.354s,PASSED
+"click(findTestObject(""Email_Registration/1.1/Page_Home - ADX Asia/li_Sign In""))",Firefox 64.0,,2019-02-04 15:44:38,2019-02-04 15:44:42,4.351s,PASSED
+"click(findTestObject(""Email_Registration/1.3/Page_Signup/span_Sign up""))",Firefox 64.0,,2019-02-04 15:44:42,2019-02-04 15:44:45,2.721s,PASSED
+"click(findTestObject(""Email_Registration/1.3/Page_Signup/button_Sign up with Email""))",Firefox 64.0,,2019-02-04 15:44:45,2019-02-04 15:44:48,2.694s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_fullname""), ""A"")",Firefox 64.0,,2019-02-04 15:44:48,2019-02-04 15:44:53,5.005s,PASSED
+"clearText(findTestObject(""Email_Registration/1.3/Page_Signup/input_fullname""))",Firefox 64.0,,2019-02-04 15:44:53,2019-02-04 15:44:55,2.661s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_fullname""), ""asdadasdghghghghgnbnbnbdsdsdhghghdsdsdsbnbnbnbnbnbdsdsghtywteytwuyghfsghgjasbdbd"")",Firefox 64.0,,2019-02-04 15:44:55,2019-02-04 15:45:00,4.241s,PASSED
+"clearText(findTestObject(""Email_Registration/1.3/Page_Signup/input_fullname""))",Firefox 64.0,,2019-02-04 15:45:00,2019-02-04 15:45:02,2.122s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_email""), """")",Firefox 64.0,,2019-02-04 15:45:02,2019-02-04 15:45:06,4.198s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_email""), ""a@a.a"")",Firefox 64.0,,2019-02-04 15:45:06,2019-02-04 15:45:10,4.106s,PASSED
+"clearText(findTestObject(""Email_Registration/1.3/Page_Signup/input_email""))",Firefox 64.0,,2019-02-04 15:45:10,2019-02-04 15:45:12,2.102s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_email""), "".abc@abc.abc"")",Firefox 64.0,,2019-02-04 15:45:12,2019-02-04 15:45:16,4.119s,PASSED
+"clearText(findTestObject(""Email_Registration/1.3/Page_Signup/input_email""))",Firefox 64.0,,2019-02-04 15:45:16,2019-02-04 15:45:18,2.219s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_telepon""), """")",Firefox 64.0,,2019-02-04 15:45:18,2019-02-04 15:45:23,4.225s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_telepon""), ""asdasdqwe"")",Firefox 64.0,,2019-02-04 15:45:23,2019-02-04 15:45:27,4.711s,PASSED
+"clearText(findTestObject(""Email_Registration/1.3/Page_Signup/input_telepon""))",Firefox 64.0,,2019-02-04 15:45:27,2019-02-04 15:45:30,2.316s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_telepon""), ""123456789123456789"")",Firefox 64.0,,2019-02-04 15:45:30,2019-02-04 15:45:34,4.541s,PASSED
+"clearText(findTestObject(""Email_Registration/1.3/Page_Signup/input_telepon""))",Firefox 64.0,,2019-02-04 15:45:34,2019-02-04 15:45:38,3.505s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_telepon""), ""123456"")",Firefox 64.0,,2019-02-04 15:45:38,2019-02-04 15:45:43,5.025s,PASSED
+closeBrowser(),Firefox 64.0,,2019-02-04 15:45:43,2019-02-04 15:45:49,6.466s,PASSED

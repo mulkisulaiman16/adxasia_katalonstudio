@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_QuickFilterButton" time="51" tests="1" failures="0" errors="0">
+   <testsuite name="TS_QuickFilterButton" tests="1" failures="0" errors="0" time="51" timestamp="2019-02-05 02:13:41" hostname="ARIO - ARIO-PC" id="Test Suites/TS_RegressionTest/TS_QuickFilterButton">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ARIO\\Documents\\ADX Asia\\ADX_Basic_Search\\Reports\\TS_RegressionTest\\TS_QuickFilterButton\\20190205_021330"/>
+         <property name="logFiles" value="C:\\Users\\ARIO\\Documents\\ADX Asia\\ADX_Basic_Search\\Reports\\TS_RegressionTest\\TS_QuickFilterButton\\20190205_021330\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ARIO - ARIO-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="sessionId" value="03c9e7cc97b09a1ba2b7cea46f895bc7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/BasicSearch/2.2/Quick_filter_button" classname="Test Cases/BasicSearch/2.2/Quick_filter_button" status="PASSED">
+         <system-out><![CDATA[2019-02-05 02:13:42 - [TEST_CASE][PASSED] - Test Cases/BasicSearch/2.2/Quick_filter_button: Test Cases/BasicSearch/2.2/Quick_filter_button
+
+2019-02-05 02:13:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-05 02:13:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-05 02:13:46 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2019-02-05 02:13:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-05 02:13:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-05 02:14:00 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-05 02:14:00 - [TEST_STEP][PASSED] - navigateToUrl("https://staging.adxasia.co.id/"): Navigate to 'https://staging.adxasia.co.id/' successfully
+
+2019-02-05 02:14:19 - [MESSAGE][PASSED] - Navigate to 'https://staging.adxasia.co.id/' successfully
+
+2019-02-05 02:14:19 - [TEST_STEP][PASSED] - click(findTestObject("2.2/Page_Home - ADX Asia/input_Home_search__input__sear")): Object: 'Object Repository/2.2/Page_Home - ADX Asia/input_Home_search__input__sear' is clicked on
+
+2019-02-05 02:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/2.2/Page_Home - ADX Asia/input_Home_search__input__sear' is clicked on
+
+2019-02-05 02:14:21 - [TEST_STEP][PASSED] - setText(findTestObject("2.2/Page_Home - ADX Asia/input_Home_search__input__sear"), "Bebek"): Text 'Bebek' is set on object 'Object Repository/2.2/Page_Home - ADX Asia/input_Home_search__input__sear'
+
+2019-02-05 02:14:26 - [MESSAGE][PASSED] - Text 'Bebek' is set on object 'Object Repository/2.2/Page_Home - ADX Asia/input_Home_search__input__sear'
+
+2019-02-05 02:14:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("2.2/Page_Home - ADX Asia/input_Home_search__input__sear"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/2.2/Page_Home - ADX Asia/input_Home_search__input__sear'
+
+2019-02-05 02:14:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/2.2/Page_Home - ADX Asia/input_Home_search__input__sear'
+
+2019-02-05 02:14:28 - [TEST_STEP][PASSED] - waitForJQueryLoad(3): This page doesn't use jQuery.
+
+2019-02-05 02:14:29 - [MESSAGE][WARNING] - This page doesn't use jQuery.
+
+2019-02-05 02:14:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("2.2/Page_categories/span_Lifestyle")): NOT_RUN: click(findTestObject("2.2/Page_categories/span_Lifestyle"))
+
+2019-02-05 02:14:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("2.2/Page_categories/span_Lifestyle"))
+
+2019-02-05 02:14:29 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2019-02-05 02:14:29 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2019-02-05 02:14:29 - [TEST_STEP][PASSED] - click(findTestObject("2.2/Page_categories/span_SPBU")): Object: 'Object Repository/2.2/Page_categories/span_SPBU' is clicked on
+
+2019-02-05 02:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/2.2/Page_categories/span_SPBU' is clicked on
+
+2019-02-05 02:14:31 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2019-02-05 02:14:31 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2019-02-05 02:14:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("2.2/Page_categories/span_Malls")): NOT_RUN: click(findTestObject("2.2/Page_categories/span_Malls"))
+
+2019-02-05 02:14:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("2.2/Page_categories/span_Malls"))
+
+2019-02-05 02:14:31 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2019-02-05 02:14:31 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2019-02-05 02:14:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("2.2/Page_categories/span_Airport")): NOT_RUN: click(findTestObject("2.2/Page_categories/span_Airport"))
+
+2019-02-05 02:14:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("2.2/Page_categories/span_Airport"))
+
+2019-02-05 02:14:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-05 02:14:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-05 02:13:41 - [TEST_SUITE][PASSED] - TS_QuickFilterButton: Test Cases/BasicSearch/2.2/Quick_filter_button]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

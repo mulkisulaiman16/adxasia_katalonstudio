@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_ValidatingEmptyResult,Chrome 71.0.3578.98,,2019-02-05 01:59:31,2019-02-05 01:59:59,28.431s,PASSED
+,,,,,,
+Test Cases/BasicSearch/3.1/Validating_empty_result_on_search,Chrome 71.0.3578.98,,2019-02-05 01:59:31,2019-02-05 01:59:59,27.999s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-05 01:59:32,2019-02-05 01:59:38,6.546s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-05 01:59:38,2019-02-05 01:59:40,2.190s,PASSED
+"navigateToUrl(""https://staging.adxasia.co.id/"")",Chrome 71.0.3578.98,,2019-02-05 01:59:40,2019-02-05 01:59:47,6.180s,PASSED
+"click(findTestObject(""2.2/Page_Home - ADX Asia/input_Home_search__input__sear""))",Chrome 71.0.3578.98,,2019-02-05 01:59:47,2019-02-05 01:59:49,2.225s,PASSED
+"setText(findTestObject(""2.2/Page_Home - ADX Asia/input_Home_search__input__sear""), ""Lawless"")",Chrome 71.0.3578.98,,2019-02-05 01:59:49,2019-02-05 01:59:53,4.299s,PASSED
+"sendKeys(findTestObject(""2.2/Page_Home - ADX Asia/input_Home_search__input__sear""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-02-05 01:59:53,2019-02-05 01:59:55,2.232s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-05 01:59:55,2019-02-05 01:59:57,2.059s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-02-05 01:59:57,2019-02-05 01:59:59,1.654s,PASSED

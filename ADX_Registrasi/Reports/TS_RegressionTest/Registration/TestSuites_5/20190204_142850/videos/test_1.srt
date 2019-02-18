@@ -1,0 +1,88 @@
+1
+00:00:00,423 --> 00:00:00,433
+1. openBrowser("")
+
+2
+00:00:18,559 --> 00:00:18,563
+5. maximizeWindow()
+
+3
+00:00:20,826 --> 00:00:20,827
+9. navigateToUrl("https://staging.adxasia.co.id/")
+
+4
+00:00:33,754 --> 00:00:33,755
+13. click(findTestObject("Email_Registration/1.1/Page_Home - ADX Asia/li_Sign In"))
+
+5
+00:00:37,334 --> 00:00:37,335
+17. click(findTestObject("Email_Registration/1.3/Page_Signup/span_Sign up"))
+
+6
+00:00:39,684 --> 00:00:39,685
+21. click(findTestObject("Email_Registration/1.3/Page_Signup/button_Sign up with Email"))
+
+7
+00:00:42,028 --> 00:00:42,030
+25. setText(findTestObject("Email_Registration/1.3/Page_Signup/input_fullname"), "A")
+
+8
+00:00:47,530 --> 00:00:47,532
+29. clearText(findTestObject("Email_Registration/1.3/Page_Signup/input_fullname"))
+
+9
+00:00:49,693 --> 00:00:49,694
+33. setText(findTestObject("Email_Registration/1.3/Page_Signup/input_fullname"), "asdadasdghghghghgnbnbnbdsdsdhghghdsdsdsbnbnbnbnbnbdsdsghtywteytwuyghfsghgjasbdbd")
+
+10
+00:00:54,469 --> 00:00:54,470
+37. clearText(findTestObject("Email_Registration/1.3/Page_Signup/input_fullname"))
+
+11
+00:00:56,532 --> 00:00:56,534
+41. setText(findTestObject("Email_Registration/1.3/Page_Signup/input_email"), "")
+
+12
+00:01:00,714 --> 00:01:00,715
+45. setText(findTestObject("Email_Registration/1.3/Page_Signup/input_email"), "a@a.a")
+
+13
+00:01:04,862 --> 00:01:04,864
+49. clearText(findTestObject("Email_Registration/1.3/Page_Signup/input_email"))
+
+14
+00:01:06,976 --> 00:01:06,977
+53. setText(findTestObject("Email_Registration/1.3/Page_Signup/input_email"), ".abc@abc.abc")
+
+15
+00:01:11,223 --> 00:01:11,224
+57. clearText(findTestObject("Email_Registration/1.3/Page_Signup/input_email"))
+
+16
+00:01:13,285 --> 00:01:13,288
+61. setText(findTestObject("Email_Registration/1.3/Page_Signup/input_telepon"), "")
+
+17
+00:01:17,405 --> 00:01:17,406
+65. setText(findTestObject("Email_Registration/1.3/Page_Signup/input_telepon"), "asdasdqwe")
+
+18
+00:01:21,577 --> 00:01:21,580
+69. clearText(findTestObject("Email_Registration/1.3/Page_Signup/input_telepon"))
+
+19
+00:01:23,691 --> 00:01:23,692
+73. setText(findTestObject("Email_Registration/1.3/Page_Signup/input_telepon"), "123456789123456789")
+
+20
+00:01:27,934 --> 00:01:27,935
+77. clearText(findTestObject("Email_Registration/1.3/Page_Signup/input_telepon"))
+
+21
+00:01:30,000 --> 00:01:30,001
+81. setText(findTestObject("Email_Registration/1.3/Page_Signup/input_telepon"), "123456")
+
+22
+00:01:34,157 --> 00:01:34,157
+85. closeBrowser()
+

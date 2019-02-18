@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OpenSearchForm,Chrome 71.0.3578.98,,2019-02-05 02:09:57,2019-02-05 02:10:20,22.736s,PASSED
+,,,,,,
+Test Cases/BasicSearch/1.1/Open_search_form,Chrome 71.0.3578.98,,2019-02-05 02:09:58,2019-02-05 02:10:20,22.275s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-05 02:09:58,2019-02-05 02:10:05,6.757s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-05 02:10:05,2019-02-05 02:10:07,2.205s,PASSED
+"navigateToUrl(""https://staging.adxasia.co.id/"")",Chrome 71.0.3578.98,,2019-02-05 02:10:07,2019-02-05 02:10:13,5.820s,PASSED
+"click(findTestObject(""1.1/Page_Home - ADX Asia/input_Search_bar""))",Chrome 71.0.3578.98,,2019-02-05 02:10:13,2019-02-05 02:10:15,2.192s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-05 02:10:15,2019-02-05 02:10:18,3.041s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-02-05 02:10:18,2019-02-05 02:10:20,1.614s,PASSED

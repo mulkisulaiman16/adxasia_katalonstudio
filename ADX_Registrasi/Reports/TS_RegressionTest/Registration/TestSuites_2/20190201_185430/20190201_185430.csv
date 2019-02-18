@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuites_2,Chrome 71.0.3578.98,,2019-02-01 18:55:56,2019-02-01 18:56:53,56.876s,FAILED
+,,,,,,
+Test Cases/Registration_Page/Email_Registration/1.2/verify_user_signin_email_account,Chrome 71.0.3578.98,,2019-02-01 18:55:56,2019-02-01 18:56:51,54.995s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-01 18:55:57,2019-02-01 18:56:05,7.473s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-01 18:56:05,2019-02-01 18:56:07,2.168s,PASSED
+"navigateToUrl(""https://staging.adxasia.co.id/"")",Chrome 71.0.3578.98,,2019-02-01 18:56:07,2019-02-01 18:56:10,3.624s,PASSED
+"click(findTestObject(""1.1/Page_Home - ADX Asia/li_Sign In""))",Chrome 71.0.3578.98,,2019-02-01 18:56:10,2019-02-01 18:56:13,2.203s,PASSED
+"setText(findTestObject(""1.1/Page_Home - ADX Asia/input_email""), ""mulkimul16@gmail.com"")",Chrome 71.0.3578.98,,2019-02-01 18:56:13,2019-02-01 18:56:17,4.263s,PASSED
+"setEncryptedText(findTestObject(""1.1/Page_Home - ADX Asia/input_Email_error""), ""mn5hRviTc1hO3f41WUkJsA=="")",Chrome 71.0.3578.98,,2019-02-01 18:56:17,2019-02-01 18:56:20,3.283s,PASSED
+"click(findTestObject(""1.1/Page_Home - ADX Asia/button_Sign in""))",Chrome 71.0.3578.98,,2019-02-01 18:56:20,2019-02-01 18:56:22,2.157s,PASSED
+"click(findTestObject(""1.2/Page_Home - ADX Asia/button_Sign in with Google""))",Chrome 71.0.3578.98,,2019-02-01 18:56:22,2019-02-01 18:56:24,2.203s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-01 18:56:24,2019-02-01 18:56:26,2.055s,PASSED
+"switchToWindowTitle(""Masuk - Akun Google"", STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-01 18:56:26,2019-02-01 18:56:33,6.121s,PASSED
+"setText(findTestObject(""1.2/Page_Masuk - Akun Google/input_gmail_account""), ""mulkimul16@gmail.com"")",Chrome 71.0.3578.98,,2019-02-01 18:56:33,2019-02-01 18:56:37,4.348s,PASSED
+"click(findTestObject(""1.2/Page_Masuk - Akun Google/span_Berikutnya""))",Chrome 71.0.3578.98,,2019-02-01 18:56:37,2019-02-01 18:56:39,2.236s,PASSED
+"setEncryptedText(findTestObject(""1.2/Page_Masuk - Akun Google/input_password""), ""14n9+UJqs0woiBvwapmKLg=="")",Chrome 71.0.3578.98,,2019-02-01 18:56:39,2019-02-01 18:56:42,3.248s,PASSED
+"click(findTestObject(""1.2/Page_Masuk - Akun Google/span_Berikutnya""))",Chrome 71.0.3578.98,,2019-02-01 18:56:42,2019-02-01 18:56:45,2.194s,PASSED
+waitForPageLoad(3),Chrome 71.0.3578.98,,2019-02-01 18:56:45,2019-02-01 18:56:49,4.466s,FAILED

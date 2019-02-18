@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuites_5,Chrome 71.0.3578.98,,2019-02-04 14:28:59,2019-02-04 14:30:38,1m - 39.022s,PASSED
+,,,,,,
+Test Cases/Registration_Page/Email_Registration/1.5/verify_error_state_when_user_signup_using_email_account,Chrome 71.0.3578.98,,2019-02-04 14:28:59,2019-02-04 14:30:38,1m - 38.631s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-04 14:29:00,2019-02-04 14:29:18,18.128s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-04 14:29:18,2019-02-04 14:29:20,2.266s,PASSED
+"navigateToUrl(""https://staging.adxasia.co.id/"")",Chrome 71.0.3578.98,,2019-02-04 14:29:20,2019-02-04 14:29:33,12.929s,PASSED
+"click(findTestObject(""Email_Registration/1.1/Page_Home - ADX Asia/li_Sign In""))",Chrome 71.0.3578.98,,2019-02-04 14:29:33,2019-02-04 14:29:37,3.579s,PASSED
+"click(findTestObject(""Email_Registration/1.3/Page_Signup/span_Sign up""))",Chrome 71.0.3578.98,,2019-02-04 14:29:37,2019-02-04 14:29:39,2.349s,PASSED
+"click(findTestObject(""Email_Registration/1.3/Page_Signup/button_Sign up with Email""))",Chrome 71.0.3578.98,,2019-02-04 14:29:39,2019-02-04 14:29:42,2.345s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_fullname""), ""A"")",Chrome 71.0.3578.98,,2019-02-04 14:29:42,2019-02-04 14:29:47,5.502s,PASSED
+"clearText(findTestObject(""Email_Registration/1.3/Page_Signup/input_fullname""))",Chrome 71.0.3578.98,,2019-02-04 14:29:47,2019-02-04 14:29:49,2.162s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_fullname""), ""asdadasdghghghghgnbnbnbdsdsdhghghdsdsdsbnbnbnbnbnbdsdsghtywteytwuyghfsghgjasbdbd"")",Chrome 71.0.3578.98,,2019-02-04 14:29:49,2019-02-04 14:29:54,4.776s,PASSED
+"clearText(findTestObject(""Email_Registration/1.3/Page_Signup/input_fullname""))",Chrome 71.0.3578.98,,2019-02-04 14:29:54,2019-02-04 14:29:56,2.063s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_email""), """")",Chrome 71.0.3578.98,,2019-02-04 14:29:56,2019-02-04 14:30:00,4.181s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_email""), ""a@a.a"")",Chrome 71.0.3578.98,,2019-02-04 14:30:00,2019-02-04 14:30:04,4.147s,PASSED
+"clearText(findTestObject(""Email_Registration/1.3/Page_Signup/input_email""))",Chrome 71.0.3578.98,,2019-02-04 14:30:04,2019-02-04 14:30:07,2.113s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_email""), "".abc@abc.abc"")",Chrome 71.0.3578.98,,2019-02-04 14:30:07,2019-02-04 14:30:11,4.247s,PASSED
+"clearText(findTestObject(""Email_Registration/1.3/Page_Signup/input_email""))",Chrome 71.0.3578.98,,2019-02-04 14:30:11,2019-02-04 14:30:13,2.062s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_telepon""), """")",Chrome 71.0.3578.98,,2019-02-04 14:30:13,2019-02-04 14:30:17,4.118s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_telepon""), ""asdasdqwe"")",Chrome 71.0.3578.98,,2019-02-04 14:30:17,2019-02-04 14:30:21,4.172s,PASSED
+"clearText(findTestObject(""Email_Registration/1.3/Page_Signup/input_telepon""))",Chrome 71.0.3578.98,,2019-02-04 14:30:21,2019-02-04 14:30:23,2.111s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_telepon""), ""123456789123456789"")",Chrome 71.0.3578.98,,2019-02-04 14:30:23,2019-02-04 14:30:28,4.242s,PASSED
+"clearText(findTestObject(""Email_Registration/1.3/Page_Signup/input_telepon""))",Chrome 71.0.3578.98,,2019-02-04 14:30:28,2019-02-04 14:30:30,2.066s,PASSED
+"setText(findTestObject(""Email_Registration/1.3/Page_Signup/input_telepon""), ""123456"")",Chrome 71.0.3578.98,,2019-02-04 14:30:30,2019-02-04 14:30:34,4.156s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-02-04 14:30:34,2019-02-04 14:30:36,1.876s,PASSED

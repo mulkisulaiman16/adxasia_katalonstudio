@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_user_sign_in_using_Gmail_account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb5d709e-d3b0-428f-92b9-e29de8ddcea5</testCaseGuid>
+</TestCaseEntity>
